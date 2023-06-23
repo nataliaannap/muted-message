@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+  }
+  
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+  }
+  
+  .topnav img{
+  width: 70px;
+  padding: 5px;
+  position: fixed;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 18px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+  
+  }
+  
+  .topnav a:hover {
+    background-color: #141414;
+    color: white;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #141414;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  label.logo{
+    color: white;
+    font-size: 25px;
+    line-height: 68px;
+    padding: 25 100px;
+    text-align: left;
+    position: fixed;
+    left: 100px;
+    text-transform: uppercase;
+  }
+
+  
+  .textowo h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 4em;
+    font-size: 30px;
+  }
+
+  .picture-container{
+    display: flex;
+    margin-right: 5px;
+
+  }
+
+  .picture{
+    height: 276px;
+    width: 273px;
+    margin-left: 50px;
+    padding: 2em;
+  }
+
+  .description{
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin-top: 120px;
+  }
+
+  .aha{
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .aha:visited{
+    color: #ffffff;
+  }
+
+  .text h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .album-photo img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    position: relative;
+    top: 50px;
+    }
+    
+    .image-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      text-align: center;
+    }
+    
+    .image-container img {
+      display: block;
+    }
+    
+    .text h3{
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      padding-top: 1.5em;
+      padding-bottom: 1em;
+    }
+    
+
+
+    .linki{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .linka{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 3em;
+      }
+      
+      .links span {
+        margin-right: 5px;
+      }
+    
+      .spotify-link {
+        font-size: 24px;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 10px;
+        margin-left: auto;
+      
+      }
+    
+      .youtube-link {
+        font-size: 24px;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 10px;
+        margin-right: auto;
+      }
+      
